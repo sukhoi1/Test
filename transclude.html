@@ -4,10 +4,11 @@
     <div class="input-group">
       <input type="text" class="form-control" aria-label="...">
       <div class="input-group-btn">
+        
         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action <span class="caret"></span></button>
-        <ng-transclude>
-          <!-- I want to place ul here [instead of] ng-transclude element -->
-        </ng-transclude>
+        
+        <ng-transclude></ng-transclude><!-- I want to place ul here [instead of] ng-transclude element, after the button -->
+        
       </div><!-- /btn-group -->
     </div><!-- /input-group -->
   </div><!-- /.col-lg-6 -->
